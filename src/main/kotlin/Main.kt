@@ -1,7 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    val paperSize = DPair(10.0, 15.0)  // cm
+    val paperLineDist = 1.0  // cm
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+
 }
