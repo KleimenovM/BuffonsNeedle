@@ -15,13 +15,13 @@ class Needle(
     fun getLowerEdgeCoordinates(): DPair {
         val x = center.first
         val y = center.second
-        return DPair(x - length * cos(phi), y - length * sin(phi))
+        return DPair(x - length / 2 * cos(phi), y - length / 2 * sin(phi))
     }
 
     fun getUpperEdgeCoordinates(): DPair {
         val x = center.first
         val y = center.second
-        return DPair(x + length * cos(phi), y - length * sin(phi))
+        return DPair(x + length / 2 * cos(phi), y + length / 2 * sin(phi))
     }
 
     fun setCrossing(point: DPair){
