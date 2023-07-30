@@ -2,8 +2,8 @@ import kotlin.math.min
 import kotlin.math.max
 
 class Paper(
-    private val xSize: Double,
-    private val ySize: Double,
+    val xSize: Double,
+    val ySize: Double,
     private val lineDist: Double
 ) {
     private val lines = linesCoordinates()
